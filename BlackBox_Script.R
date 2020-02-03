@@ -1,6 +1,3 @@
-## MAZY G. CARNEIRO
-## 27th January 2020
-
 #This classification problem was treated as a Multiclass classification as there were three classes Draw(D), Lost(L), Won(W)
 #The classification performance was measured using the Kappa of each model
 #The Gradient Boosting Model gave us a Kappa in the Validation set that was better than the Random Forest model.
@@ -14,10 +11,10 @@ library(CORElearn)
 na = c('?','NA', 'null','Null','NULL')
 
 #Set working directory - where the csv files and scripts can be accessed
-setwd("/Users/Mazy/Desktop/Black_Box_test/")
+setwd("")
 
 #library(data.table)
-df = read.csv(file.path('/Users/Mazy/Desktop/Black_Box_test', 'Rugby_Stats-Table_1.csv'),
+df = read.csv(file.path('', ''),
                               header=TRUE,
                               sep=',', 
                               stringsAsFactors=TRUE,
