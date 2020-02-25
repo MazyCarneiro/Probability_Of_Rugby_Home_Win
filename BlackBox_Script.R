@@ -1,7 +1,6 @@
 #This classification problem was treated as a Multiclass classification as there were three classes Draw(D), Lost(L), Won(W)
 #The classification performance was measured using the Kappa of each model
 #The Gradient Boosting Model gave us a Kappa in the Validation set that was better than the Random Forest model.
-#The results for the Test Set (Kappa = 1) seems too high (out of the ordinary) but I couldn't find any errors or bias that could have caused  the models to get such results.
 
 library(data.table) 
 library(doParallel)
